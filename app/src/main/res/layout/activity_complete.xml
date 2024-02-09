@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CompleteActivity">
+
+    <TextView
+        android:id="@+id/success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Order Done"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/buttonDone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/success"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/main_button"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="FINISH"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

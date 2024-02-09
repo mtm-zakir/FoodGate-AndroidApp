@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/l_yellow">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:cardBackgroundColor="@color/yellow"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="25dp"
+    android:layout_marginEnd="25dp">
+
+        <ImageView
+            android:id="@+id/thumbImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:layout_margin="10dp"
+            tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="120dp">
+
+        <TextView android:id="@+id/menuName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView
+            android:id="@+id/menuPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+        <TextView android:id="@+id/addToCartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="ADD ITEM"
+            android:background="@drawable/button_bg"
+            android:padding="8dp"
+            android:gravity="center_horizontal" />
+
+        <LinearLayout
+            android:id="@+id/addMoreLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageMinus"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_remove_circle"
+                app:tint="@color/purple_700" />
+
+
+            <TextView android:id="@+id/tvCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22sp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:textColor="@color/orange"
+                android:text="1"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+            <ImageView android:id="@+id/imageAddOne"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_add_circle"
+                app:tint="@color/purple_700" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout >

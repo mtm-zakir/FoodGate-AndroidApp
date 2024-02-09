@@ -1,0 +1,192 @@
+[
+    {
+      "name":"PIZZA HUT",
+      "address":"Colombo",
+      "delivery_charge": 200,
+      "image":"https://seeklogo.com/images/P/pizza-hut-logo-DBFE2E48AF-seeklogo.com.png",
+
+      "hours":{
+        "Sunday":"11:00 AM - 7:00 PM",
+        "Monday":"10:00 AM - 9:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 11:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"10:00 AM - 11:00 PM",
+        "Saturday":"10:00 AM - 2:00 PM"
+      },
+      "menus": [
+        {
+          "name": "Cheesy Tomato with Green Chillies",
+          "price": 930,
+          "url": "https://adminsc.pizzahut.lk//images/mainmenu/f913317b-dec5-4051-a529-facca04afd4f.jpg"
+        },
+        {
+          "name": "Pizza",
+          "price": 830,
+          "url": "https://lh3.googleusercontent.com/p/AF1QipN-WboPX7pEgnNqg78wranzezsGMdPfwCoxQjdJ=s1280-p-no-v1"
+        },
+        {
+          "name": "Chocolate Pizza",
+          "price": 1000,
+          "url": "https://149366112.v2.pressablecdn.com/wp-content/uploads/2017/08/blah.jpg"
+        },
+        {
+          "name": "Tandoori Chicken",
+          "price": 550,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKmeI0mogDS9GAsjtVnZhuwBYkr07hHyFYow&usqp=CAU"
+        }
+      ]
+    },
+    {
+      "name":"EFC",
+      "address":"Nintavur",
+      "delivery_charge": 200,
+      "image":"https://cdn.lolcfinance.com/lolc-finance-uploads/2018/07/e0be8a63-eliant-food-court.jpg",
+
+      "hours":{
+        "Sunday":"11:00 AM - 7:00 PM",
+        "Monday":"10:00 AM - 9:00 PM",
+        "Tuesday":"10:00 AM - 10:00 PM",
+        "Wednesday":"10:00 AM - 11:00 PM",
+        "Thursday":"10:00 AM - 10:00 PM",
+        "Friday":"10:00 AM - 11:00 PM",
+        "Saturday":"10:00 AM - 2:00 PM"
+      },
+      "menus": [
+        {
+          "name": "FRIED CHICKEN",
+          "price": 800,
+          "url": "https://twoplaidaprons.com/wp-content/uploads/2023/02/Korean-fried-chicken-wings-on-a-plate-thumbnail-shot.jpg"
+        },
+        {
+          "name": "BURGER",
+          "price": 650,
+          "url": "https://www.cookinwithmima.com/wp-content/uploads/2021/07/crispy-chicken-sandwich-4.jpg"
+        },
+        {
+          "name": "PIZZA",
+          "price": 900,
+          "url": "https://lh3.googleusercontent.com/p/AF1QipN-WboPX7pEgnNqg78wranzezsGMdPfwCoxQjdJ=s1280-p-no-v1"
+        },
+        {
+          "name": "SANDWICH",
+          "price": 750,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDceD7ssbZwSxxGqoGGgxoNho3elyzYqLPKQ&usqp=CAU"
+        },
+        {
+          "name": "SUBMERIN",
+          "price": 790,
+          "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzElo_VFGcbA97_g1dNfBUvqUcRtEik-lPg&usqp=CAU"
+        }
+      ]
+    },
+  {
+    "name":"FAB CEYLON",
+    "address":"Kandy",
+    "delivery_charge": 350,
+    "image":"https://media-cdn.tripadvisor.com/media/photo-m/1280/22/00/96/20/fab-ceylon.jpg",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 9:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 11:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 11:00 PM",
+      "Saturday":"10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "FRIED RICE",
+        "price": 850,
+        "url": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4-500x500.jpg"
+      },
+      {
+        "name": "MUTTON BURIYANI",
+        "price": 800,
+        "url": "https://i.ytimg.com/vi/s4YsKuoYTe8/maxresdefault.jpg"
+      },
+      {
+        "name": "CHICKEN BURIYANI",
+        "price": 650,
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani.jpg"
+      },
+      {
+        "name": "HYDRABAT BURIYANI",
+        "price": 1000,
+        "url": "https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg"
+      }
+    ]
+  },
+  {
+    "name":"KIRI BHOJAN",
+    "address":"Batticaloa",
+    "delivery_charge": 150,
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxpwO2IaGogmqjGGbCvo0zHSBbLH0nZtMOth1pFElr5-2V7L_K492pZNm-9rOpu9vRQkA&usqp=CAU",
+
+    "hours":{
+      "Sunday":"10:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 9:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 11:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 11:00 PM",
+      "Saturday":"10:00 AM - 7:00 PM"
+    },
+    "menus": [
+      {
+        "name": "BROWN BURIYANI",
+        "price": 900,
+        "url": "https://nomadette.com/wp-content/uploads/2022/04/Shrimp-Egg-Fried-Rice.jpg"
+      },
+      {
+        "name": "FRIED RICE",
+        "price": 850,
+        "url": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4-500x500.jpg"
+      },
+      {
+        "name": "CHICKEN FRIED RICE",
+        "price": 1000,
+        "url": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani.jpg"
+      },
+      {
+        "name": "TANDOORY CHICKEN",
+        "price": 780,
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKmeI0mogDS9GAsjtVnZhuwBYkr07hHyFYow&usqp=CAU"
+      }
+    ]
+  },
+  {
+    "name":"BEACH HOUSE",
+    "address":"Galle",
+    "delivery_charge": 200,
+    "image":"https://media-cdn.tripadvisor.com/media/photo-s/07/a7/a2/36/beach-house-restaurant.jpg",
+
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 9:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 11:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 11:00 PM",
+      "Saturday":"10:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "SPECIAL BURIYANI",
+        "price": 899,
+        "url": "https://www.licious.in/blog/wp-content/uploads/2022/06/chicken-hyderabadi-biryani-01.jpg"
+      },
+      {
+        "name": "CHICKEN WINGS",
+        "price": 599,
+        "url": "https://static.toiimg.com/thumb/61589069.cms?imgsize=788682&width=800&height=800"
+      },
+      {
+        "name": "BROWN BURIYANI",
+        "price": 1000,
+        "url": "https://pin.it/10KLCr2"
+      }
+    ]
+  }
+]
