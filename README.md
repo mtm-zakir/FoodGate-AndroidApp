@@ -1,6 +1,6 @@
 ## INTRODUCTION
 
-Food Gate is a Online Food Order App Using Android Studio.
+Food Gate is a Online Food Order from any Famous Restuarants Using Android Studio.
 
 ## SCREENSHOTS
 <div align="center">
